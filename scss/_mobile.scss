@@ -1,0 +1,18 @@
+@media(max-width:375px){
+
+  body{
+    overflow: hidden;
+    position: relative;
+  }
+
+  .container{
+    max-width: 300px;
+  }
+  #bottom{
+    .summary-flex{
+      .total{
+        font-size: 1.1rem;
+      }
+    }
+  }
+}

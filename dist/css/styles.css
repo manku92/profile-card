@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: "Kumbh Sans";
+  min-height: 100vh;
+  background: hsl(185deg, 75%, 39%);
+  display: grid;
+  place-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+.back-images .circle-a img {
+  border-radius: 1px solid;
+  position: absolute;
+  bottom: 290px;
+  right: 890px;
+}
+.back-images .circle-b img {
+  border-radius: 1px solid;
+  position: absolute;
+  top: 350px;
+  right: -140px;
+}
+
+.container {
+  background: #f4f4f4;
+  max-width: 350px;
+  border-radius: 20px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+#top img {
+  border-radius: 20px 20px 0 0;
+}
+#top .profile-image {
+  position: relative;
+}
+#top .profile-image img {
+  border-radius: 50%;
+  border: 1px solid #f4f4f4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#bottom .name-age {
+  text-align: center;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+#bottom .name-age .name {
+  color: hsl(229deg, 23%, 23%);
+  font-weight: 700;
+  margin-right: 7px;
+}
+#bottom .name-age .age {
+  color: hsl(227deg, 10%, 46%);
+  font-weight: 500;
+}
+#bottom .city {
+  text-align: center;
+  color: hsl(227deg, 10%, 46%);
+  font-weight: 500;
+  border-bottom: 1px solid hsl(0deg, 0%, 59%);
+  padding-bottom: 2rem;
+  font-size: 1.1rem;
+}
+#bottom .summary-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+  text-align: center;
+}
+#bottom .summary-flex .total {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: hsl(229deg, 23%, 23%);
+}
+#bottom .summary-flex .content {
+  padding: 0.5em 0;
+  font-size: 0.85rem;
+  color: hsl(0deg, 0%, 59%);
+  letter-spacing: 1px;
+}
+
+.attribution {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(223deg, 28%, 10%);
+  font-weight: bold;
+}
+
+@media (max-width: 375px) {
+  body {
+    overflow: hidden;
+    position: relative;
+  }
+  .container {
+    max-width: 300px;
+  }
+  #bottom .summary-flex .total {
+    font-size: 1.1rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
