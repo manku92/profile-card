@@ -6,7 +6,7 @@
 }
 
 body {
-  font-size: "Kumbh Sans";
+  font-family: "Kumbh Sans";
   min-height: 100vh;
   background: hsl(185deg, 75%, 39%);
   display: grid;
