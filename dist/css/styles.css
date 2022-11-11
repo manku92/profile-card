@@ -8,28 +8,16 @@
 body {
   font-family: "Kumbh Sans";
   min-height: 100vh;
-  background: hsl(185deg, 75%, 39%);
+  background-color: hsl(185deg, 75%, 39%);
   display: grid;
   place-content: center;
-  position: relative;
-  overflow: hidden;
+  background-image: url(https://digitshack.com/codepen/mentor4/bg-pattern-top.svg), url(https://digitshack.com/codepen/mentor4/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 52vw bottom 40vh, left 52vw top 44vh;
 }
 
 img {
   max-width: 100%;
-}
-
-.back-images .circle-a img {
-  border-radius: 1px solid;
-  position: absolute;
-  bottom: 290px;
-  right: 890px;
-}
-.back-images .circle-b img {
-  border-radius: 1px solid;
-  position: absolute;
-  top: 350px;
-  right: -140px;
 }
 
 .container {
